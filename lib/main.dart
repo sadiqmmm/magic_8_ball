@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import "package:flutter/material.dart";
 
 void main() {
@@ -11,19 +10,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Ask Me Anything",
-      home: MaginBall(),
+      home: MagicBall(),
     );
   }
 }
 
-class MaginBall extends StatefulWidget {
-  MaginBall({Key key}) : super(key: key);
+class MagicBall extends StatefulWidget {
+  MagicBall({Key key}) : super(key: key);
 
   @override
-  _MaginBallState createState() => _MaginBallState();
+  _MagicBallState createState() => _MagicBallState();
 }
 
-class _MaginBallState extends State<MaginBall> {
+class _MagicBallState extends State<MagicBall> {
   int magicBallNumber = 1;
 
   void changeMagicBallImage() {
